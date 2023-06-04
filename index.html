@@ -15,29 +15,28 @@
   <body>
     <main>
       <div class="fContainer flex flex-col">
-        <nav class="wrapper">
-          <div class="flex flex-row justify-between">
-            <div class="logo">
-              <img src="https://myeatandtravelstory.files.wordpress.com/2019/05/cover-sang-pisang-1500x1001.jpg?w=1500&h=1001&crop=1"
-                alt="logo" width="80"/>
-            </div>
-            <ul class="midnav" flex flex-row gap-4>
-              <li><a href="/">Menu</a></li>
-              <li><a href="/">About us</a></li>
-              <li><a href="/" class="active">Shop now!</a></li>
-            </ul>
-            <ul class="rightnav" flex flex-row gap-4>
-              <li><a href="/">Profile</a></li>
-              <li><a href="/">Your cart</a></li>
-            </ul>
+        <!-- <div class="flex flex-row justify-between"> -->
+        <div class="navContainer">
+          <div class="logo">
+            <img src="https://myeatandtravelstory.files.wordpress.com/2019/05/cover-sang-pisang-1500x1001.jpg?w=1500&h=1001&crop=1"
+              alt="logo" width="80"/>
           </div>
-        </nav>  
+          <div class="midnav" flex flex-row gap-4>
+            <span><a href="/">Menu</a></span>
+            <span><a href="/">About us</a></span>
+            <span><a href="/" class="active">Shop now!</a></span>
+          </div>
+          <div class="rightnav" flex flex-row gap-4>
+            <span><a href="/">Profile</a></span>
+            <span><a href="/">Your cart</a></span>
+          </div>
+        </div> 
       </div>
       <section aria-label="What's new!">
         <div class="carousel" data-carousel>
           <button class="carousel-button prev" data-carousel-button="prev">&#8592;</button>
           <button class="carousel-button next" data-carousel-button="next">&#8594;</button>
-          <ul data-slides>
+          <ul data-slides class="caraousel-image">
             <li class="slide" data-active>
               <img src="https://stackblitz.com/files/web-platform-xkarxe/github/ChirCayo/homepage-project/main/Image/Diskon1.png" alt="Diskon1">            
             </li>
