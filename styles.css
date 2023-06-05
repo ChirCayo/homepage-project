@@ -8,7 +8,6 @@ body {
   margin: 0;
 }
 
-
 /*NavBar section*/
 .fContainer {
   display: flex;
@@ -162,7 +161,6 @@ body {
   right: 1rem;
 }
 
-
 /*Popular Menu Section*/
 .column {
   float: left;
@@ -186,8 +184,9 @@ body {
   padding: 0 16px;
 }
 
-.container::after, .row::after {
-  content: "";
+.container::after,
+.row::after {
+  content: '';
   clear: both;
   display: table;
 }
@@ -202,7 +201,7 @@ body {
   display: inline-block;
   padding: 8px;
   color: white;
-  background-color: #000;
+  background-color: grey;
   text-align: center;
   cursor: pointer;
   width: 100%;
